@@ -4,10 +4,10 @@ import Data from "../../Data";
 
 const Explor = ()=>{
 
-    const exportitem = Data.exp.map((item)=>{
+    const exportitem = Data.exp.map((item , index)=>{
         return(
-            <div className="col-md-4">
-                <div className="box">
+            <div className="col-md-4 ">
+                <div className="box" key={index}>
                     <img src={item.cover} alt=""/>
                     <div className="overlay">
                         <h4>{item.title}</h4>
