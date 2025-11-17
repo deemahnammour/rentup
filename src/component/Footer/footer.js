@@ -47,7 +47,7 @@ const Footer = () => {
       </div>
 
       <div className="footer-end">
-        <p>© 2021 RentUP. Design By Deemah Nammour</p>
+        <p>© 2022 RentUP. Design By Deemah Nammour</p>
       </div>
     </footer>
   );

@@ -33,13 +33,13 @@ const Featured = () => {
                     </div>
                     <a href="url" ><h4>{item.title}</h4></a>
                     <p><FontAwesomeIcon className="icon1" icon={item.icon1} />{item.text}</p>
-                    <div className="pri">
-                        <div className="price">
-                            <span className="bt">{item.price}</span> /sqft
+                    <div className="price-flex flex">
+                        <div className="price ">
+                            <button className="bt">{item.price}</button> 
+                            <label htmlFor=""> /sqf</label>
                         </div>
-                        <div className="typ"> {item.typ}</div>
+                        <span className="typ"> {item.typ}</span>
                     </div>
-
                 </div>
 
             </div>

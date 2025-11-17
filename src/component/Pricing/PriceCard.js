@@ -38,7 +38,7 @@ const PriceCard = () => {
               })}
             </ul>
             <button className="btn5" style={{ background:
-                          item.plan === "Standard" ? "#dc35451d" : "#27ae601f",
+                          item.plan === "Standard" ? "#27ae60" : "#fff",
                         color: item.plan === "Standard" ? "#fff" : "#27ae60",}}> Start {item.plan}</button>
           </div>
         );
