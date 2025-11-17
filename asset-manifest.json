@@ -1,0 +1,36 @@
+{
+  "files": {
+    "main.css": "/rentup/static/css/main.6b8fd056.css",
+    "main.js": "/rentup/static/js/main.3075fddf.js",
+    "static/js/453.134af3ea.chunk.js": "/rentup/static/js/453.134af3ea.chunk.js",
+    "static/media/awards.jpg": "/rentup/static/media/awards.71eab8ebf73553b2451a.jpg",
+    "static/media/ex3.png": "/rentup/static/media/ex3.7bf3d8d4dc931aba1ab6.png",
+    "static/media/ex2.png": "/rentup/static/media/ex2.40fe639bab686cca636d.png",
+    "static/media/ex5.png": "/rentup/static/media/ex5.1cfea9cc12831078406a.png",
+    "static/media/ex1.png": "/rentup/static/media/ex1.de0c404eba4a18c42ed3.png",
+    "static/media/r3.png": "/rentup/static/media/r3.3cfd39e3c93992a71208.png",
+    "static/media/r4.png": "/rentup/static/media/r4.d08fd804fe6f11f76fda.png",
+    "static/media/r1.png": "/rentup/static/media/r1.53b793d8b6b646fe9ae0.png",
+    "static/media/r5.png": "/rentup/static/media/r5.d41e3bbb8a136a4c5878.png",
+    "static/media/header.png": "/rentup/static/media/header.1a3c8a0a448e8e24f6a0.png",
+    "static/media/r6.png": "/rentup/static/media/r6.1a5720889994f55b633c.png",
+    "static/media/ex6.png": "/rentup/static/media/ex6.ff340a8b09526cef65ad.png",
+    "static/media/r2.png": "/rentup/static/media/r2.29e1ce82548249598508.png",
+    "static/media/ex4.png": "/rentup/static/media/ex4.e82102f69bbb256aca6f.png",
+    "static/media/f1.png": "/rentup/static/media/f1.39627af04b11bb28d173.png",
+    "static/media/f2.png": "/rentup/static/media/f2.23cd275134501e1723d9.png",
+    "static/media/f4.png": "/rentup/static/media/f4.9b9ed4bf85f344599729.png",
+    "static/media/f3.png": "/rentup/static/media/f3.cdc2e9c8d906eab2dd39.png",
+    "static/media/team2.png": "/rentup/static/media/team2.00bc3871a7ef0ab78430.png",
+    "static/media/team3.png": "/rentup/static/media/team3.838096000e3cea5f29b3.png",
+    "static/media/team1.png": "/rentup/static/media/team1.1a8f24ebdba2e72c96f4.png",
+    "index.html": "/rentup/index.html",
+    "main.6b8fd056.css.map": "/rentup/static/css/main.6b8fd056.css.map",
+    "main.3075fddf.js.map": "/rentup/static/js/main.3075fddf.js.map",
+    "453.134af3ea.chunk.js.map": "/rentup/static/js/453.134af3ea.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.6b8fd056.css",
+    "static/js/main.3075fddf.js"
+  ]
+}
