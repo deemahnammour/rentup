@@ -1,0 +1,104 @@
+nav{
+    width: 100%;
+    max-width: 100%;
+    height: auto;
+    padding: 5px 0px 5px 20px;
+    overflow: hidden;
+    border-radius: 0px;
+    font-family: "Edu NSW ACT Foundation";
+    position: fixed;
+ }
+ 
+ nav .navbar-brand{
+     color: rgb(68, 22, 111);
+     font-size: 30px !important;
+     font-weight: bold;
+     text-transform: uppercase;
+     margin: 0px 40px;
+ }
+ 
+ nav img{
+    width: 150px;
+    height: 37px;
+    margin-bottom: 3px ;
+ 
+ }
+ 
+ nav a{
+     color: #212121;
+     font-size: 22px !important;
+     margin-right: 5px;
+     text-transform: capitalize;
+     font-weight: bold !important; 
+     text-decoration: none;  
+ }
+ 
+ nav a:hover{
+     color: rgb(58, 137, 58) !important;
+     font-weight: bold;
+     transition: .3s ease-in-out;
+ }
+
+
+ nav button{
+    background-color: rgb(58, 137, 58);
+    color: #fff;
+    border: 1px solid rgb(58, 137, 58);
+    border-radius: 5px;
+    margin-right: 5px;
+    width: 100px;
+    height: 40px;
+    font-size:22px ;
+ }
+ 
+
+ nav .nav2 a{
+    margin-right: 15px;
+    color: black;
+    font-size: 18px !important;
+    text-align: center;
+    cursor: pointer;
+ }
+ 
+ nav .nav2 span{
+    background-color: rgb(58, 137, 58);
+    color: #fff;
+    width: auto;
+    border-radius: 50%;
+    margin-right: 4px;
+    font-size: 15px;
+    padding:0 6px;
+    font-weight: 400;
+ }
+
+ nav .toggle{
+   display: none;
+ }
+
+ @media screen and (max-width:768px) {
+   nav {
+      padding: 0;
+      
+   }
+
+   nav img{
+      margin-top: 10px;
+       width: 120px;
+    height: 30px;
+    margin-left: -30px;
+
+   }
+   nav button{
+      display: none
+   }
+   nav .nav2{
+      display: none;
+   }
+
+   nav .toggle{
+      display: flex;  
+    justify-content: space-between;
+  border: none;
+  margin: 10px 0 0 20px;
+   }
+ }

@@ -1,0 +1,88 @@
+.explore{
+    margin-top: 40px;
+    text-align: center;
+    width: 100%;
+    max-width: 100%;
+}
+
+.explore h2{
+    color: green;
+    font-size: 35px;
+    font-family: "Edu NSW ACT Foundation";
+    font-weight: bold;
+    margin-top: 40px;
+    letter-spacing: 1px;
+    text-transform: capitalize;
+}
+
+.explore p{
+    color: #5d5c5c;
+    font-size: 16px;
+    margin: 20px;
+    line-height: 30px;
+    letter-spacing: 1px;
+}
+
+.explore .box{
+    width: 100%;
+    max-width: 100%;
+    text-align: center;
+    position: relative;
+}
+
+.explore .box img{
+    width: 100%;
+   
+    height: auto;
+    margin-bottom: 20px;
+    border-radius: 5px;
+}
+
+.explore .box .overlay{
+    position: absolute;
+    top:0;
+    left: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    height: 240px;
+    width: 100%;
+    color: #fff;
+    z-index: 2222;
+}
+
+.explore .box .overlay::after{
+    content: "";
+    align-items: center;
+    position: absolute;
+    top: 0;
+    left: 20px;
+    width: 340px;
+    height: 210px;
+    background: rgb(15 28 47 / 30%);
+    z-index: -1;
+    margin: 20px;
+    border-radius: 5px;
+}
+
+.explore h4{
+    font-size: 18px;
+    font-weight: 500;
+}
+
+.explore label{
+    color: #fff;
+    margin-right: 20px;
+    opacity: 0.8;
+    font-size: 14px;
+}
+
+@media screen and (max-width:800px){
+   
+    
+    .explore .box .overlay::after{
+        width: 280px;
+        height: 170px;
+    }   
+}

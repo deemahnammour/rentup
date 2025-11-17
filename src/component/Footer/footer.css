@@ -1,0 +1,160 @@
+.footer {
+  background-color: #0b132b;
+  color: #fff;
+  font-family: "Poppins", sans-serif;
+  padding-top: 0;
+}
+
+.footer-top {
+  background-color:  rgb(58, 137, 58);
+  text-align: center;
+  padding: 40px 100px;
+  color: #fff;
+  position: relative;
+  display: flex;
+  justify-content: space-between;
+}
+
+.footer-top h2 {
+  font-size: 28px;
+  margin-bottom: 10px;
+}
+
+.footer-top p {
+  margin-bottom: 20px;
+  font-size: 16px;
+}
+
+.contact-btn {
+  background-color: #fff;
+ align-items: center;
+ margin-top: 20px;
+  color: rgb(58, 137, 58);
+  border: none;
+  padding: 10px 25px;
+  border-radius: 25px;
+  cursor: pointer;
+  font-weight: 600;
+  transition: all 0.3s ease;
+}
+
+.contact-btn:hover {
+  background-color: #e8f9f3;
+}
+
+.footer-bottom {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  gap: 30px;
+  padding: 50px 80px;
+}
+
+.footer-bottom .about{
+    margin-right: 50px;
+}
+
+ .footer-bottom img{
+    width: 150px;
+    height: 37px;
+    margin-bottom: 3px ;
+ 
+ }
+
+ .footer-bottom .subscribe ::placeholder{
+font-size: 15px;
+ }
+
+ .footer-column.link{
+    margin-left: 50px;
+ }
+.footer-column h4 {
+  font-size: 16px;
+  margin-bottom: 15px;
+  color: #fff;
+ 
+}
+
+.footer-column ul {
+  list-style: none;
+  padding: 0;
+ 
+}
+
+.footer-column ul li {
+  color: #ccc;
+  margin-bottom: 10px;
+  font-size: 15px;
+  cursor: pointer;
+  transition: color 0.3s;
+}
+
+.footer-column ul li:hover {
+  color: #1fab89;
+}
+
+.footer-column.about h3 {
+  font-size: 22px;
+  color: #fff;
+  margin-left: 5px;
+}
+
+.footer-column.about p {
+  color: #bbb;
+  font-size: 14px;
+  margin: 10px 0 15px;
+  line-height: 1.5;
+}
+
+.footer-column.about .logo {
+  display: flex;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+.footer-column.about .icon {
+  font-size: 24px;
+}
+
+.subscribe {
+  display: flex;
+  gap: 10px;
+}
+
+.subscribe input {
+  flex: 1;
+  padding: 10px;
+  border: none;
+  border-radius: 5px;
+}
+
+.subscribe button {
+  background-color:  rgb(58, 137, 58);
+  border: none;
+  color: white;
+  padding: 10px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+  transition:  0.3s;
+}
+
+.subscribe button:hover {
+  background-color: rgb(58, 137, 58);
+}
+
+.footer-end {
+  text-align: center;
+  border-top: 1px solid #222;
+  padding: 15px 0;
+  color: #999;
+  font-size: 14px;
+}
+
+@media screen and (max-width:768px) {
+  
+  .footer-top{
+    display: block;
+  }
+  .footer-bottom button {
+    padding:10px 5px;
+  }
+}
